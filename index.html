@@ -11,7 +11,7 @@
 
     <title>My Portfolio</title>
   </head>
-  <body>
+  <body class="mt-5">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Sahril Mahendra</a>
@@ -32,39 +32,42 @@
 
     <div class="jumbotron jumbotron-fluid">
     <div class="container text-center">
-            <img src="img/profile1.png" class="rounded-circle">
+            <img src="img/profile1.png" width="25%" class="rounded-circle img-thumbnail">
             <h1 class="display-4">Sahril Mahendra</h1>
             <p class="lead">Welcome to My Profile Pages.</p>
         </div>
     </div>
 
 
+<section class="about" id="about">
     <div class="container">
-        <div class="row">
+        <div class="row mb-4">
             <div class="col text-center">
-                <h1>About</h1>
+                <h2>About</h2>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col text-justify">
+        <div class="row justify-content-center">
+            <div class="col-md-5 text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum illum corporis, inventore sed quisquam, laboriosam eos esse id voluptates non obcaecati cumque? Iste atque adipisci ducimus temporibus totam. Magnam, beatae.</p>
             </div>
-            <div class="col text-justify">
+            <div class="col-md-5 text-justify">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi asperiores ducimus repellendus laborum ex repudiandae provident eligendi ipsam officia praesentium? Aliquam repellendus quam nobis reprehenderit numquam aut delectus cum voluptates!</p>
             </div>
         </div>
     </div>
+</section>
 
-
+<section class="portfolio bg-light pb-4" id="portfolio">
     <div class="container">
-        <div class="row">
+
+        <div class="row mb-4 pt-4">
             <div class="col text-center">
-                <h1>Portfolio</h1>
+                <h2>Portfolio</h2>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md">
                 <div class="card">
                     <img src="img/thumbs/1.png" class="card-img-top" alt="...">
@@ -91,7 +94,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md">
                 <div class="card">
                     <img src="img/thumbs/4.png" class="card-img-top" alt="...">
@@ -119,13 +122,75 @@
         </div>
 
     </div>
+</section>
 
 
+<section class="contact mb-5" id="contact">
+    <div class="container">
+        <div class="row pt-4 mb-4">
+            <div class="col text-center">
+                <h2>Contact Us</h2>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="card text-white bg-primary mb-3 text-center">
+                    <div class="card-body">
+                    <h5 class="card-title">Contact Us</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, reprehenderit!</p>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Location</li>
+                    <li class="list-group-item">My Office</li>
+                    <li class="list-group-item">Jl. Jasmine No. 14, Sidoarjo</li>
+                    <li class="list-group-item">East Java, Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4">
+                <form>
+                    <div class="form-group">
+                      <label for="nama">Name : </label>
+                      <input type="text" class="form-control" id="nama" placeholder="Input your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email : </label>
+                        <input type="email" class="form-control" id="email" placeholder="Input your email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="telp">Telp. : </label>
+                        <input type="tel" class="form-control" id="telp" placeholder="Input your telp">
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="pesan">Message : </label>
+                      <textarea type="text" class="form-control" id="pesan" placeholder="Input your Message"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
 
 
+<footer class="bg-dark text-white text-center">
+    <div class="container">
+        <div class="row pt-3">
+            <div class="col">
+                <p>&copy;Copyright 2021 | <a href="https://facebook.com/sahril.mahendra">Sahril Mahendra</a></p>
+            </div>
+        </div>
+    </div>
 
-
-
+</footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
